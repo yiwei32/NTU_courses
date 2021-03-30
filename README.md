@@ -10,6 +10,6 @@
 
 **2020 Fall**
 
-ML Foundations and Techniques
+1. ML Foundations and Techniques
 
-Data Science
+2. Data Science
