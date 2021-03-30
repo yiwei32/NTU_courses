@@ -1,6 +1,6 @@
 # NTU_courses
 
-**2021 Springfrom NTU
+**2021 Springfrom NTU**
 
 1. Machine Learning
 
@@ -8,7 +8,7 @@
 
 3. Cryptography
 
-**2020 Fall
+**2020 Fall**
 
 ML Foundations and Techniques
 
