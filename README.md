@@ -1,6 +1,6 @@
 # NTU_courses
 
-**2021 Springfrom NTU**
+**2021 Spring**
 
 1. Machine Learning
 
