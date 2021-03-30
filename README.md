@@ -13,3 +13,5 @@
 1. ML Foundations and Techniques
 
 2. Data Science
+
+3. Algorithms
