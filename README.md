@@ -8,6 +8,8 @@
 
 3. Cryptography
 
+4. Data Structure and Algorithms (Auditing
+
 **2020 Fall**
 
 1. ML Foundations and Techniques
