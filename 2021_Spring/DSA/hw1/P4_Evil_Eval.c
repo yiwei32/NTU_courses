@@ -130,7 +130,7 @@ void stack_double_free(struct Stack_double* stack){
 
 
 
-// some Utility functions
+// Some utility functions
 
 int isDigit(char token){
     if (token >= '0' && token <= '9'){
