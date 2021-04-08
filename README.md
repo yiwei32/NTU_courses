@@ -8,7 +8,7 @@
 
 3. Cryptography
 
-4. Data Structure and Algorithms (Auditing
+4. Data Structure and Algorithms (Auditing)
 
 **2020 Fall**
 
