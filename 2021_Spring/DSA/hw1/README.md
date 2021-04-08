@@ -20,9 +20,8 @@ error between the answer and your output is less than 10−12. Formally, let you
   
 ## **Constraints**
 
-|a−b| max(1,|b|)
-≤ 10^12
- • 0<thelengthofeachlineL<106
+|a−b| max(1,|b|)≤ 10^12
+• 0< the length of each line L < 10\^6
 • 0 < ai < 108 for each number ai in the expression
 • L · T ≤ 106
 • every numbers in the input will be an integer containing only of digits. We expect the
