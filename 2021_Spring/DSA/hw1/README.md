@@ -1,8 +1,8 @@
-## **Homework**
+# **Homework**
 
 # Problem 4 - Evil Eval (100 pts) 
 
-**Problem Description**
+## **Problem Description**
 
 In this problem, you “simply” have to implement a calculator like what has been taught in the classes. The calculator should support the following operator on double-precision floating points with correct precedence:
 • arithmetic operators: +, -, *, / • parentheses: (, )
@@ -10,7 +10,7 @@ In this problem, you “simply” have to implement a calculator like what has b
 It is guaranteed that the divisor would not be zero during the process of the calculation. Please do not try to solve this problem by calling other program in your source code. If (and only if) you patiently, wholeheartedly code the homework out, you will gain a better coding
 skill and a deeper understanding of the data structure!
 
-**Input**
+## **Input**
 
 The input contains T lines, each representing an arithmetic expression. Output
 For each test case print a double-precision floating point number in one line, which indicates
@@ -18,7 +18,7 @@ the answer of the expression. Your solution will be considered correct if the ab
 error between the answer and your output is less than 10−12. Formally, let your answer be a,
   and the jury’s answer be b, your answer is accepted if and only if 
   
-**Constraints**
+## **Constraints**
 
 |a−b| max(1,|b|)
 ≤ 10−12
@@ -41,7 +41,7 @@ Subtask 3 (50 pts)
 
 • all operators are possible
 
-**Sample Cases** 
+## **Sample Cases** 
 
 Sample Input 1
 
