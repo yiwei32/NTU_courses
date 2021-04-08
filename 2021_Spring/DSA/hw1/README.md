@@ -23,9 +23,9 @@ error between the answer and your output is less than 10−12. Formally, let you
 
 |a−b| max(1,|b|)≤ 10−12
 
-•<img src="https://render.githubusercontent.com/render/math?math= 0 < the length of each line L < 10^6">
+•<img src="https://render.githubusercontent.com/render/math?math= {0 < the length of each line L < 10^6}">
 
-•<img src="https://render.githubusercontent.com/render/math?math= 0 < a_i < 108 for each number a_i in the expression"> 
+•<img src="https://render.githubusercontent.com/render/math?math= {0 < a_i < 108 for each number a_i in the expression}"> 
 
 • L · T ≤ 106
 
