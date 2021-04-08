@@ -1,3 +1,3 @@
 # Homework
 
-$' 10^8 '$
+$ \sum_{\forall i}{x_i^{2}} $
