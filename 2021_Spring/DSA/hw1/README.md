@@ -21,13 +21,12 @@ error between the answer and your output is less than 10−12. Formally, let you
 ## **Constraints**
 
 |a−b| max(1,|b|)
-≤ 10−12
+≤ 10^12
  • 0<thelengthofeachlineL<106
 • 0 < ai < 108 for each number ai in the expression
 • L · T ≤ 106
 • every numbers in the input will be an integer containing only of digits. We expect the
 final output to be a floating point number, though.
-11
 
 Subtask 1 (25 pts)
 
@@ -43,26 +42,26 @@ Subtask 3 (50 pts)
 
 ## **Sample Cases** 
 
-Sample Input 1
+### Sample Input 1
 
 1+3-2
 
-Sample Output 1
+### Sample Output 1
 
 2.000000000000000
 
-Sample Input 2
+### Sample Input 2
 
 1+2*3 
 1-2*3
 
-Sample Output 2
+### Sample Output 2
 
 7.000000000000000
 
 -5.000000000000000
 
-Sample Input 3
+### Sample Input 3
 
 (1+2)*3
 
