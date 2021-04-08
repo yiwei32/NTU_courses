@@ -1,5 +1,7 @@
-Programming Part
-Problem 4 - Evil Eval (100 pts) Problem Description
+# **Programming Part**
+
+# Problem 4 - Evil Eval (100 pts) Problem Description
+
 In this problem, you “simply” have to implement a calculator like what has been taught in the classes. The calculator should support the following operator on double-precision floating points with correct precedence:
 • arithmetic operators: +, -, *, / • parentheses: (, )
 It is guaranteed that the divisor would not be zero during the process of the calculation. Please do not try to solve this problem by calling other program in your source code. If (and only if) you patiently, wholeheartedly code the homework out, you will gain a better coding
