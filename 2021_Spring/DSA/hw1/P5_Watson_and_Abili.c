@@ -33,12 +33,20 @@ void deleteNodeTail(XList *list);
 void migrate(XList *list_from, XList *list_to);
 void printXList(XList *list);
 
-int main(){
-    char record[16];
-    int k, n;
+int ReadInt(void){
+    char digit = getchar();
+    int value = 0;
+    while(digit >= '0' && digit <= '9'){
+        value = 10 * value + (digit - '0');
+        digit = getchar();
+    }
+    return value;
+};
 
-    (void)fgets(record, 16, stdin);
-    sscanf(record, "%d %d", &k, &n);
+int main(){
+    int k, n;
+    k = ReadInt();
+    n = ReadInt();
 
     XList* rail[k];
     for (int i = 0; i < k; i++){
@@ -49,20 +57,27 @@ int main(){
     
 
     for (int i = 0; i < n; i++){
-        (void)fgets(record, 16, stdin); // fgets reads the whole line including space and \n
-        int length = strlen(record);
-        record[length - 1] = '\0';
+        //(void)fgets(record, 16, stdin); // fgets reads the whole line including space and \n
+        //int length = strlen(record);
+        //record[length - 1] = '\0';
         char command[7];
         int first;
         int second;
-        sscanf(record, "%s %d %d", command, &first, &second);
-        if (command[0] == 'e'){
+        char digit = getchar();
+        while (getchar() != ' ');
+        
+        if (digit == 'e'){
+            first = ReadInt();
+            second = ReadInt(); 
             insertNodeTail(rail[first], second);
         }
-        else if (command[0] == 'l'){
+        else if (digit == 'l'){
+            first = ReadInt();
             deleteNodeTail(rail[first]);
         }
-        else if (command[0] == 'm'){
+        else if (digit == 'm'){
+            first = ReadInt();
+            second = ReadInt(); 
             migrate(rail[first], rail[second]);
         }
     }
