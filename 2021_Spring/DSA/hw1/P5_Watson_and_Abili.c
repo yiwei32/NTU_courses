@@ -57,9 +57,7 @@ int main(){
     
 
     for (int i = 0; i < n; i++){
-        //(void)fgets(record, 16, stdin); // fgets reads the whole line including space and \n
-        //int length = strlen(record);
-        //record[length - 1] = '\0';
+
         char command[7];
         int first;
         int second;
