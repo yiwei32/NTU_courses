@@ -259,13 +259,10 @@ double Eval(char* tokens){
 
 int main(){
     
-    char c ;
     char tokens[MAX];
-    int index = 0;
     while(scanf("%s", tokens) != EOF){
         double ans = Eval(tokens);
         printf("%.14lf\n", ans);
-        index = 0;
     }
     
     return 0;
