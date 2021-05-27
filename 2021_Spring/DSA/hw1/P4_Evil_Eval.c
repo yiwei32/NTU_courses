@@ -178,15 +178,28 @@ double Eval(char* tokens){
         for digits, check negative numbers
         i.e. check if there is a number before '-'
         */
-        if (tokens[i] == '-' && (tokens[i-1] == '(' || i == 0)){
-            double value = 0;
-            i++;
-            while(i < length && isDigit(tokens[i])){
-                value = value*10 + (double)(tokens[i] - '0');
+        if (tokens[i] == '-'){
+            if (i == 0){
+                double value = 0;
                 i++;
+                while(i < length && isDigit(tokens[i])){
+                    value = value*10 + (double)(tokens[i] - '0');
+                    i++;
+                }
+                i--; //correct the index back to previous one
+                stack_double_push(ValueStack, -value);
             }
-            i--; //correct the index back to previous one
-            stack_double_push(ValueStack, -value);
+            else if (tokens[i-1] == '('){
+                double value = 0;
+                i++;
+                while(i < length && isDigit(tokens[i])){
+                    value = value*10 + (double)(tokens[i] - '0');
+                    i++;
+                }
+                i--; //correct the index back to previous one
+                stack_double_push(ValueStack, -value);
+            }
+                
         }
         else if (isDigit(tokens[i])){
             double value = 0;
