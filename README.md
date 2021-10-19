@@ -1,5 +1,11 @@
 # NTU Courses and Side Projects
 
+**2021 Fall**
+
+1. Deep Learning for Computer Vision
+
+2. Digital Image Processing
+
 **2021 Spring**
 
 1. Machine Learning
