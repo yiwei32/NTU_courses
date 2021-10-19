@@ -1,4 +1,4 @@
-# NTU Courses and Side Projects
+# NTU Courses
 
 **2021 Fall**
 
